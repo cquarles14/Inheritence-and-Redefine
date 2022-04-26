@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		15A99ACA28179B9400BED189 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A99AC928179B9400BED189 /* main.cpp */; };
+		15A99AD628179BB800BED189 /* SUV_C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A99AD028179BB700BED189 /* SUV_C.cpp */; };
+		15A99AD728179BB800BED189 /* Vehicle_C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A99AD328179BB700BED189 /* Vehicle_C.cpp */; };
+		15A99AD828179BB800BED189 /* Car_C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A99AD428179BB700BED189 /* Car_C.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		15A99AC628179B9400BED189 /* Inheritence and Redefine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Inheritence and Redefine"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A99AC928179B9400BED189 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		15A99AD028179BB700BED189 /* SUV_C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SUV_C.cpp; sourceTree = "<group>"; };
+		15A99AD128179BB700BED189 /* Car_C.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Car_C.hpp; sourceTree = "<group>"; };
+		15A99AD228179BB700BED189 /* SUV_C.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SUV_C.hpp; sourceTree = "<group>"; };
+		15A99AD328179BB700BED189 /* Vehicle_C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle_C.cpp; sourceTree = "<group>"; };
+		15A99AD428179BB700BED189 /* Car_C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Car_C.cpp; sourceTree = "<group>"; };
+		15A99AD528179BB700BED189 /* Vehicle_C.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vehicle_C.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				15A99AC928179B9400BED189 /* main.cpp */,
+				15A99AD428179BB700BED189 /* Car_C.cpp */,
+				15A99AD128179BB700BED189 /* Car_C.hpp */,
+				15A99AD028179BB700BED189 /* SUV_C.cpp */,
+				15A99AD228179BB700BED189 /* SUV_C.hpp */,
+				15A99AD328179BB700BED189 /* Vehicle_C.cpp */,
+				15A99AD528179BB700BED189 /* Vehicle_C.hpp */,
 			);
 			path = "Inheritence and Redefine";
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15A99AD728179BB800BED189 /* Vehicle_C.cpp in Sources */,
+				15A99AD628179BB800BED189 /* SUV_C.cpp in Sources */,
+				15A99AD828179BB800BED189 /* Car_C.cpp in Sources */,
 				15A99ACA28179B9400BED189 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
