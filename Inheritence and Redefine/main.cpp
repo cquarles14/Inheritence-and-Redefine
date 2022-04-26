@@ -44,4 +44,23 @@ int main()
     
     car.Display_Info();
     
+    cout << endl << endl << "SUV:" << endl;
+    cout << "Enter the manufacturer: " << endl;
+    cin.ignore();
+    getline(cin, manufacturer);
+    cout << "Enter the year built: " << endl;
+    cin >> yearBuilt;
+    cout << "Enter the number of doors: " << endl;
+    cin >> numDoors;
+    cout << "Enter the gas tank capacity: " << endl;
+    cin >> gasCap;
+    
+    suv.Set_Manufacturer(manufacturer);
+    suv.Set_YearBuilt(yearBuilt);
+    suv.Set_NumDoors(numDoors);
+    suv.Set_GasTankCapacity(gasCap);
+    
+    suv.Display_Info();
+    
+    return 0;
 }
