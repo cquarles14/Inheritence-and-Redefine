@@ -28,4 +28,20 @@ int main()
     vehicle.Set_YearBuilt(yearBuilt);
     
     vehicle.Display_Info();
+    
+    cout << endl << endl << "Car:" << endl;
+    cout << "Enter the manufacturer: " << endl;
+    cin.ignore();
+    getline(cin, manufacturer);
+    cout << "Enter the year built: " << endl;
+    cin >> yearBuilt;
+    cout << "Enter the number of doors: " << endl;
+    cin >> numDoors;
+    
+    car.Set_Manufacturer(manufacturer);
+    car.Set_YearBuilt(yearBuilt);
+    car.Set_NumDoors(numDoors);
+    
+    car.Display_Info();
+    
 }
